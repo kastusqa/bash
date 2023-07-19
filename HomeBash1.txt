@@ -1,0 +1,43 @@
+1. cd ~
+
+2. pwd
+
+3. mkdir test1
+
+4. cd test1
+
+5. touch 1.txt 2.txt 3.txt
+
+6. ls
+
+7. cd ~
+
+8. mkdir test2
+
+9. rm -r test2
+
+10. rm test1/2.txt
+
+11. mkdir test3
+cd test3 
+touch file1.txt 
+touch file2.txt
+
+12. rm -r test3
+
+13. mkdir test4
+14. mv test1/1.txt test1/3.txt test4/
+
+15. echo "line" >> test4/1.txt
+    echo "line" >> test4/1.txt
+    echo "line" >> test4/1.txt
+
+16. cat test4/1.txt
+
+17. echo "line" >> test4/3.txt
+    echo "line" >> test4/3.txt
+    echo "line" >> test4/3.txt
+
+18. cat test4/1.txt test4/3.txt
+
+19. nano test4/1.txt
